@@ -1,0 +1,10 @@
+.footer {
+  background: #252222;
+  color: white;
+  padding: 4rem 18rem 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.div-1 {
+  width: 40%;
+}

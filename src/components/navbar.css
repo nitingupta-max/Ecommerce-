@@ -1,0 +1,66 @@
+.navbar {
+  background: #972a1a;
+  padding: 1rem 10rem 1rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  border: none;
+  outline: none;
+}
+
+.search-box {
+  display: flex;
+}
+
+.form-select {
+  background: #ffffff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 16px;
+  color: #82a64d;
+  position: absolute;
+  z-index: 1;
+}
+
+.input-field {
+  font-size: 16px;
+  background-color: #ddaab3;
+  padding: 1rem;
+  padding-left: 8rem;
+  outline: none;
+  border: none;
+  margin-top: 1rem;
+  width: 20rem;
+  border-radius: 16px;
+}
+
+/* .btn-div {
+  display: flex;
+  color: white;
+} */
+
+.btn-cart {
+  color: white;
+  background: #972a1a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 2rem;
+  font-size: 1rem;
+}
+.btn-login {
+  background: #82a64d;
+  outline: none;
+  border: none;
+  border-radius: 48px;
+  height: 3rem;
+  margin-top: 1rem;
+  font-size: 16px;
+  width: 8rem;
+  color: white;
+  cursor: pointer;
+}

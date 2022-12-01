@@ -1,0 +1,99 @@
+.hero-div {
+  width: 100%;
+  margin-top: 2rem;
+}
+.hero-img {
+  width: 100%;
+}
+
+.mid-div {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 15rem 1rem 15rem;
+}
+
+.img-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.banner {
+  height: 150px;
+  width: 400px;
+}
+
+.newly-launched {
+  display: flex;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  /* z-index: 1; */
+  /* background: white; */
+  /* position: absolute; */
+}
+.best-selling {
+  display: flex;
+  margin-top: -4rem;
+  margin-bottom: 6rem;
+}
+
+.btn-left {
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background: #972a1a;
+  height: 50px;
+  width: 50px;
+  margin: 5rem;
+}
+
+.color {
+  background: linear-gradient(180deg, #960018 0%, #ff0029 100%);
+  height: 10rem;
+}
+
+.last-div {
+  text-align: center;
+}
+
+.serve-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 15rem 3rem 15rem;
+}
+
+.register-div {
+  background: #82a64d;
+  padding: 3rem 15rem 3rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12rem;
+}
+
+.register-btn {
+  background: #972a1a;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 6rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.promotion {
+  background: #972a1a;
+  padding: 3rem 15rem 0rem 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download {
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.mobile-img {
+  margin-top: -12rem;
+}
