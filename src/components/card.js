@@ -1,5 +1,5 @@
-import { Typography, Button } from "@mui/material";
-import "./card.css";
+import { Typography } from "@mui/material";
+import "../css/card.css";
 
 const Card = () => {
   return (
@@ -14,9 +14,7 @@ const Card = () => {
           Best Price* <span style={{ color: "#960018" }}>₹ 27.42</span>
         </Typography>
 
-        <Button variant="contained" fullwidth>
-          Buy Now
-        </Button>
+        <button className="buy-now-btn"> Buy Now</button>
       </div>
     </>
   );

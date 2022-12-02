@@ -15,7 +15,7 @@ import mobile from "../image/catalog/mobile.png";
 import Card from "./card";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
-import "./body.css";
+import "../css/body.css";
 const Body = () => {
   return (
     <>

@@ -1,13 +1,17 @@
 import logo from "../image/catalog/Logo.png";
 // import { Button } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import "./navbar.css";
+import { Link } from "react-router-dom";
+
+import "../css/navbar.css";
 const Navbar = () => {
   return (
     <>
       <div className="navbar">
         <div className="logo-div">
-          <img src={logo} alt="logo" />
+          <Link to={"/"}>
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="search-box">
           <div className="select">
