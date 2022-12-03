@@ -1,0 +1,81 @@
+.contact-details {
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr 1fr 3fr;
+  grid-column-gap: 10rem;
+  justify-items: stretch;
+  align-items: stretch;
+  margin: 8rem 20rem 6rem 20rem;
+}
+.vl {
+  border-left: 1px solid #0a7621;
+  height: 100px;
+}
+
+.phone-div {
+  text-align: center;
+  /* padding: 4rem; */
+}
+
+.email-div {
+  text-align: center;
+}
+.get-in-touch {
+  margin: 4rem 15rem 4rem 15rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.map-contact {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  grid-row-gap: 10rem;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+}
+.inp-field {
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 8px;
+}
+
+.req-btn {
+  font-size: 1rem;
+  padding: 1rem;
+  background: #3b5cee;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: white;
+}
+.map {
+  width: 100%;
+  height: 100;
+}
+
+@media (max-width: 480px) {
+  .contact-details {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 20%;
+  }
+  .vl {
+    display: none;
+  }
+  .get-in-touch {
+    margin: 4rem 2rem 4rem 2rem;
+    padding: 2rem;
+  }
+  .map-contact {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+  }
+}

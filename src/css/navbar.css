@@ -1,6 +1,6 @@
 .navbar {
   background: #972a1a;
-  padding: 1rem 10rem 1rem 10rem;
+  padding: 1% 10% 1% 10%;
   display: flex;
   justify-content: space-between;
 }
@@ -63,4 +63,25 @@
   width: 8rem;
   color: white;
   cursor: pointer;
+}
+
+@media (max-width: 1220px) {
+  .navbar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-field {
+    padding-left: 7.5rem;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    width: 8rem;
+  }
+  .form-select {
+    padding: 0.5rem;
+  }
+  .btn-cart {
+    display: none;
+  }
 }

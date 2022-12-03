@@ -36,11 +36,7 @@ const Body = () => {
         </div>
       </div>
       <div className="color">
-        <Typography
-          pt={4}
-          variant="h4"
-          style={{ color: "white", marginLeft: "15rem" }}
-        >
+        <Typography pt={4} variant="h4" className="heading-newly">
           Newly Launched - Upto 70% Off
         </Typography>
       </div>
@@ -57,11 +53,7 @@ const Body = () => {
         {/* <Card /> */}
       </div>
       <div className="color">
-        <Typography
-          pt={4}
-          variant="h4"
-          style={{ color: "white", marginLeft: "15rem" }}
-        >
+        <Typography pt={4} variant="h4">
           Best Selling Products
         </Typography>
       </div>

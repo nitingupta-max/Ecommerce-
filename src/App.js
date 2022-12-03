@@ -5,6 +5,8 @@ import TermsCondition from "./pages/terms_condition";
 import PrivacyPolicy from "./pages/privacy_policy";
 import OrderSummary from "./pages/order_Summary";
 import ContactUs from "./pages/contact";
+import Login from "./pages/login";
+import SignUp from "./pages/signup";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/privacy" exact element={<PrivacyPolicy />} />
         <Route path="/ordersummary" exact element={<OrderSummary />} />
         <Route path="/contactus" exact element={<ContactUs />} />
+        <Route path="/login" exact element={<Login />} />
+        <Route path="/signup" exact element={<SignUp />} />
       </Routes>
     </>
   );
