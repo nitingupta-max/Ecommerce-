@@ -1,0 +1,36 @@
+.div-4-data {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-gap: 1rem 4rem;
+}
+@media (max-width: 1024px) {
+  .div-4-data {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  .big-img-div {
+    width: 60vh;
+  }
+  .form-div {
+    padding: 3%;
+  }
+  .register-button {
+    width: 50%;
+  }
+}
+@media (max-width: 720px) {
+  .div-4-data {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    width: 70%;
+  }
+  .big-img-div {
+    width: 100%;
+  }
+  .form-div {
+    padding: 3%;
+  }
+  .register-button {
+    width: 50%;
+  }
+}

@@ -35,7 +35,10 @@ const Navbar = () => {
             <span style={{ marginRight: "1rem" }}>Cart</span>
             <ShoppingCartIcon />
           </button>
-          <button className="btn-login">Login</button>
+          <Link to="/login">
+            {" "}
+            <button className="btn-login">Login</button>
+          </Link>
         </div>
       </div>
     </>
