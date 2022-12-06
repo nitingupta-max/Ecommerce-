@@ -1,8 +1,19 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .div-4-data {
   display: grid;
   grid-template-columns: 6fr 6fr;
   grid-gap: 1rem 4rem;
 }
+
+.form-div {
+  overflow: scroll;
+  height: 100vh;
+}
+
 @media (max-width: 1024px) {
   .div-4-data {
     grid-template-columns: 1fr;

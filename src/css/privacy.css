@@ -1,14 +1,17 @@
+.privacy-div {
+  margin: 6% 10% 6% 10%;
+}
 .privacy-img {
   filter: brightness(20%);
 }
 
 .intro-div {
-  margin: 6rem 10rem 0rem 10rem;
+  /* margin: 6rem 10rem 0rem 10rem; */
   text-align: justify;
 }
 
 .managing-div {
-  margin: 4rem 10rem 4rem 10rem;
+  /* margin: 4rem 10rem 4rem 10rem; */
   text-align: justify;
 }
 
@@ -23,4 +26,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media (max-width: 720px) {
+  .privacy-div {
+    margin: 6%;
+  }
 }

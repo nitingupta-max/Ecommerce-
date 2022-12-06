@@ -1,7 +1,8 @@
 .navbar {
   background: #972a1a;
   padding: 1% 10% 1% 10%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   justify-content: space-between;
 }
 .search {
@@ -11,6 +12,9 @@
 
 .search-box {
   display: flex;
+}
+.btn-div {
+  margin: auto;
 }
 
 .form-select {
@@ -24,6 +28,10 @@
   color: #82a64d;
   position: absolute;
   z-index: 1;
+  appearance: none;
+  min-width: 13ch;
+  max-width: 25ch;
+  cursor: pointer;
 }
 
 .input-field {
@@ -34,14 +42,9 @@
   outline: none;
   border: none;
   margin-top: 1rem;
-  width: 20rem;
+  width: 140%;
   border-radius: 16px;
 }
-
-/* .btn-div {
-  display: flex;
-  color: white;
-} */
 
 .btn-cart {
   color: white;
@@ -67,6 +70,13 @@
   cursor: pointer;
 }
 
+.div-cart-btn {
+  display: flex;
+}
+.cart_logo_div {
+  margin-top: -5px;
+}
+
 @media (max-width: 1220px) {
   .navbar {
     padding: 1rem;
@@ -78,7 +88,7 @@
     outline: none;
     border: none;
     margin-top: 1rem;
-    width: 8rem;
+    width: 70%;
   }
   .form-select {
     padding: 0.5rem;

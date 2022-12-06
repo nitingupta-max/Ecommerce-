@@ -45,7 +45,7 @@ const Login = () => {
               </Typography>
             </div>
           </div>
-          <img src={play_app_icon} alt="logo" width="400" height="60" />
+          <img src={play_app_icon} alt="logo" className="play_app_icon" />
         </div>
       </div>
       {/* <Footer /> */}

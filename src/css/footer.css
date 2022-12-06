@@ -1,6 +1,5 @@
 .footer {
   color: white;
-  padding: 4rem 18rem 2rem 8rem;
   display: flex;
   justify-content: space-between;
 }
@@ -11,19 +10,20 @@
 
 .footer-cover {
   background: #252222;
+  padding: 2% 10% 1%;
 }
 
 .footer-line {
   border: 1px solid #626262;
-  margin: 0rem 5rem;
+  margin-top: 1rem;
 }
 .copy-right {
   display: flex;
   justify-content: space-between;
-  margin: 0rem 1rem;
+  /* margin: 0rem 1rem; */
   color: white;
   font-size: 1.2rem;
-  padding: 1rem 10rem;
+  padding: 1rem 0rem;
 }
 
 @media (max-width: 980px) {

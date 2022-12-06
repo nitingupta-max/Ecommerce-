@@ -1,6 +1,5 @@
 import hero from "../image/cache/catalog/demo/banners/Main-Banner-2-1903x600.jpg";
 import Typography from "@mui/material/Typography";
-// import Button from "@mui/material/Button";
 import imgage1 from "../image/catalog/demo/banners/Cms-Banner-01.png";
 import imgage2 from "../image/catalog/demo/banners/Cms-Banner-02.png";
 import imgage3 from "../image/catalog/demo/banners/Cms-Banner-03.png";
@@ -10,8 +9,7 @@ import best_quality from "../image/catalog/demo/banners/1.png";
 import outSourcing from "../image/catalog/demo/banners/Outsourcing.png";
 import google from "../image/google.png";
 import app from "../image/app.png";
-import mobile from "../image/catalog/mobile.png";
-
+import mobile from "../image/phone.svg";
 import Card from "./card";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
@@ -32,6 +30,7 @@ const Body = () => {
         <div className="img-div">
           <img src={imgage1} className="banner" alt="img" />
           <img src={imgage2} className="banner" alt="img" />
+          <img src={imgage3} className="banner" alt="img" />
           <img src={imgage3} className="banner" alt="img" />
         </div>
       </div>

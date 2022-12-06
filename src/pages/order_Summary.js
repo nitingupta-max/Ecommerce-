@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import google from "../image/google.png";
 import app from "../image/app.png";
-import mobile from "../image/catalog/mobile.png";
+import mobile from "../image/phone.svg";
 import "../css/order_summary.css";
 import Offer from "../components/offer";
 import RemoveIcon from "@mui/icons-material/Remove";

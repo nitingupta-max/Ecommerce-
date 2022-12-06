@@ -1,11 +1,11 @@
 import login_image from "../image/bg.jpg";
 import med_logo from "../image/logo.png";
 import "../css/login.css";
+import "../css/signup.css";
 import { Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import play_app_icon from "../image/catalog/app.png";
-import "../css/signup.css";
-const Login = () => {
+const Signup = () => {
   return (
     <>
       {/* <Navbar /> */}
@@ -182,11 +182,12 @@ const Login = () => {
               </Typography>
             </div>
           </div>
-          <img src={play_app_icon} alt="logo" width="400" height="60" />
+          <img src={play_app_icon} alt="logo" className="play_app_icon" />
         </div>
       </div>
+      {/* <Footer /> */}
     </>
   );
 };
 
-export default Login;
+export default Signup;

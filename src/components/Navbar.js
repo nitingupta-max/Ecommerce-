@@ -1,5 +1,4 @@
 import logo from "../image/catalog/Logo.png";
-// import { Button } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { Link } from "react-router-dom";
 
@@ -17,9 +16,10 @@ const Navbar = () => {
           <div className="select">
             <select className="form-select">
               <option selected>Generic</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option value="1">Generic</option>
+              <option value="2">OTC</option>
+              <option value="3">Surgical</option>
+              <option value="4">Branded</option>
             </select>
           </div>
           <div>
@@ -31,10 +31,18 @@ const Navbar = () => {
           </div>
         </div>
         <div className="btn-div">
-          <button className="btn-cart">
-            <span style={{ marginRight: "1rem" }}>Cart</span>
-            <ShoppingCartIcon />
-          </button>
+          <Link to="/ordersummary">
+            <button className="btn-cart">
+              <div className="div-cart-btn">
+                <div>
+                  <span style={{ marginRight: "1rem" }}>Cart</span>
+                </div>
+                <div className="cart_logo_div">
+                  <ShoppingCartIcon className="cart" />
+                </div>
+              </div>
+            </button>
+          </Link>
           <Link to="/login">
             {" "}
             <button className="btn-login">Login</button>
