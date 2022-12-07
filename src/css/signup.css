@@ -3,6 +3,12 @@ body {
   padding: 0px;
 }
 
+.signup-body {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  height: 100vh;
+}
+
 .div-4-data {
   display: grid;
   grid-template-columns: 6fr 6fr;
@@ -40,8 +46,14 @@ body {
   }
   .form-div {
     padding: 3%;
+    /* overflow: none; */
   }
   .register-button {
     width: 50%;
+  }
+  .signup-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
   }
 }

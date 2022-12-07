@@ -1,4 +1,3 @@
-import hero from "../image/cache/catalog/demo/banners/Main-Banner-2-1903x600.jpg";
 import Typography from "@mui/material/Typography";
 import imgage1 from "../image/catalog/demo/banners/Cms-Banner-01.png";
 import imgage2 from "../image/catalog/demo/banners/Cms-Banner-02.png";
@@ -12,13 +11,31 @@ import app from "../image/app.png";
 import mobile from "../image/phone.svg";
 import Card from "./card";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
-
 import "../css/body.css";
+import ImageSlider from "./carousel";
+// import DivSlider from "./car_div";
+import hero1 from "../image/cache/catalog/demo/banners/Main-Banner-1-1903x600.jpg";
+import hero2 from "../image/cache/catalog/demo/banners/Main-Banner-2-1903x600.jpg";
+import { Link } from "react-router-dom";
+
+const images = [
+  {
+    id: 1,
+    src: hero1,
+    alt: "Image",
+  },
+  {
+    id: 2,
+    src: hero2,
+    alt: "Image",
+  },
+];
 const Body = () => {
   return (
     <>
       <div className="hero-div">
-        <img src={hero} alt="hero_image" className="hero-img" />
+        {/* <img src={hero} alt="hero_image" className="hero-img" /> */}
+        <ImageSlider images={images} />
       </div>
       <div className="mid-div">
         <Typography variant="h4" color="#972a1a">
@@ -49,7 +66,6 @@ const Body = () => {
         <Card />
         <Card />
         <Card />
-        {/* <Card /> */}
       </div>
       <div className="color">
         <Typography pt={4} variant="h4">
@@ -66,7 +82,6 @@ const Body = () => {
         <Card />
         <Card />
         <Card />
-        {/* <Card /> */}
       </div>
 
       <div className="last-div">
@@ -113,11 +128,13 @@ const Body = () => {
         <Typography variant="h2" style={{ color: "white" }}>
           We Deliver value <br></br>through colaboration
         </Typography>
-        <img src={outSourcing} alt="img" />
-        <button className="register-btn">
-          {" "}
-          <Typography variant="h5">REGISTER AS DISTRIBUTOR</Typography>
-        </button>
+        <img src={outSourcing} alt="img" className="outsourcing" />
+        <Link to="/signup">
+          <button className="register-btn">
+            {" "}
+            <Typography variant="h5">REGISTER AS DISTRIBUTOR</Typography>
+          </button>
+        </Link>
       </div>
 
       <div className="promotion">

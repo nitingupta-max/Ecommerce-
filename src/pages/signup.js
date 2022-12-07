@@ -9,7 +9,7 @@ const Signup = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="login-body">
+      <div className="signup-body">
         <div className="big-img-div">
           <img src={login_image} alt="login" className="img-login" />
         </div>

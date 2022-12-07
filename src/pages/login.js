@@ -12,7 +12,7 @@ const Login = () => {
         <div className="big-img-div">
           <img src={login_image} alt="login" className="img-login" />
         </div>
-        <div className="form-div">
+        <div className="form-div-1">
           <img src={med_logo} alt="company_logo" width="300" height="80" />
           <div className="form">
             <Typography variant="h4" mt={8}>

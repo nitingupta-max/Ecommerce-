@@ -4,9 +4,11 @@ import Footer from "../components/footer";
 function Home() {
   return (
     <>
-      <Navbar />
-      <Body />
-      <Footer />
+      <div style={{ overflowX: "hidden" }}>
+        <Navbar />
+        <Body />
+        <Footer />
+      </div>
     </>
   );
 }
