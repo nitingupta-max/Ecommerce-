@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import "../css/card.css";
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -14,7 +15,10 @@ const Card = () => {
           Best Price* <span style={{ color: "#960018" }}>₹ 27.42</span>
         </Typography>
 
-        <button className="buy-now-btn"> Buy Now</button>
+        <Link to="/ordersummary">
+          {" "}
+          <button className="buy-now-btn"> Buy Now</button>
+        </Link>
       </div>
     </>
   );

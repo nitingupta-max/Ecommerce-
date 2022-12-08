@@ -10,10 +10,9 @@ import google from "../image/google.png";
 import app from "../image/app.png";
 import mobile from "../image/phone.svg";
 import Card from "./card";
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+// import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import "../css/body.css";
 import ImageSlider from "./carousel";
-// import DivSlider from "./car_div";
 import hero1 from "../image/cache/catalog/demo/banners/Main-Banner-1-1903x600.jpg";
 import hero2 from "../image/cache/catalog/demo/banners/Main-Banner-2-1903x600.jpg";
 import { Link } from "react-router-dom";
@@ -57,9 +56,11 @@ const Body = () => {
         </Typography>
       </div>
       <div className="newly-launched">
-        <button className="btn-left">
+        {/* <button className="btn-left">
           <ChevronLeftIcon style={{ color: "white" }} />
-        </button>
+        </button> */}
+        <Card />
+        <Card />
         <Card />
         <Card />
         <Card />
@@ -73,9 +74,12 @@ const Body = () => {
         </Typography>
       </div>
       <div className="best-selling">
-        <button className="btn-left">
+        {/* <button className="btn-left">
           <ChevronLeftIcon style={{ color: "white" }} />
-        </button>
+        </button> */}
+        <Card />
+        <Card />
+        <Card />
         <Card />
         <Card />
         <Card />

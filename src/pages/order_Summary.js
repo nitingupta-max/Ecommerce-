@@ -31,9 +31,10 @@ const OrderSummary = () => {
               <Button>
                 <RemoveIcon />
               </Button>
-              <Typography ml={2} mr={2} mt={1}>
+              {/* <Typography ml={2} mr={2} mt={1}>
                 100
-              </Typography>
+              </Typography> */}
+              <input className="quantity-inp" placeholder="10"></input>
               <Button>
                 <AddIcon />
               </Button>
@@ -47,9 +48,10 @@ const OrderSummary = () => {
               <Button>
                 <RemoveIcon />
               </Button>
-              <Typography ml={2} mr={2} mt={1}>
+              {/* <Typography ml={2} mr={2} mt={1}>
                 100
-              </Typography>
+              </Typography> */}
+              <input className="quantity-inp" placeholder="10"></input>
               <Button>
                 <AddIcon />
               </Button>
@@ -63,9 +65,10 @@ const OrderSummary = () => {
               <Button>
                 <RemoveIcon />
               </Button>
-              <Typography ml={2} mr={2} mt={1}>
+              {/* <Typography ml={2} mr={2} mt={1}>
                 100
-              </Typography>
+              </Typography> */}
+              <input className="quantity-inp" placeholder="10"></input>
               <Button>
                 <AddIcon />
               </Button>
@@ -79,9 +82,10 @@ const OrderSummary = () => {
               <Button>
                 <RemoveIcon />
               </Button>
-              <Typography ml={2} mr={2} mt={1}>
+              {/* <Typography ml={2} mr={2} mt={1}>
                 100
-              </Typography>
+              </Typography> */}
+              <input className="quantity-inp" placeholder="10"></input>
               <Button>
                 <AddIcon />
               </Button>

@@ -20,6 +20,13 @@
   border-radius: 8px;
   border: 1px solid #e8e8e8;
 }
+.quantity-inp {
+  outline: none;
+  border: none;
+  width: 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+}
 
 .proceed-btn {
   padding: 1rem 2rem;

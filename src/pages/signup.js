@@ -180,9 +180,9 @@ const Signup = () => {
                 {" "}
                 Already have an account? <Link to="/login">Log In</Link>
               </Typography>
+              <img src={play_app_icon} alt="logo" className="play_app_icon" />
             </div>
           </div>
-          <img src={play_app_icon} alt="logo" className="play_app_icon" />
         </div>
       </div>
       {/* <Footer /> */}
