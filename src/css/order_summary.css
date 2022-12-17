@@ -1,6 +1,6 @@
 .title-div {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .offers-div {
@@ -39,10 +39,34 @@
   border: none;
 }
 
+.rate-phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pq {
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width: 1024px) {
   .med-details-div {
     display: flex;
     flex-direction: column;
     grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .title-div {
+    grid-template-columns: 1fr;
+  }
+  .forPhone {
+    display: none;
+  }
+  .rate-phone {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
   }
 }

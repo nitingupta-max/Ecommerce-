@@ -44,10 +44,18 @@ const Body = () => {
           Get Best Deals in All Categories
         </Typography>
         <div className="img-div">
-          <img src={imgage1} className="banner" alt="img" />
-          <img src={imgage2} className="banner" alt="img" />
-          <img src={imgage3} className="banner" alt="img" />
-          <img src={imgage3} className="banner" alt="img" />
+          <div>
+            <img src={imgage1} className="banner" alt="img" />
+          </div>
+          <div>
+            <img src={imgage2} className="banner" alt="img" />
+          </div>
+          <div>
+            <img src={imgage3} className="banner" alt="img" />
+          </div>
+          <div>
+            <img src={imgage3} className="banner" alt="img" />
+          </div>
         </div>
       </div>
       <div className="color">

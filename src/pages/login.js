@@ -7,7 +7,6 @@ import play_app_icon from "../image/catalog/app.png";
 const Login = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <div className="login-body">
         <div className="big-img-div">
           <img src={login_image} alt="login" className="img-login" />
@@ -48,7 +47,6 @@ const Login = () => {
           <img src={play_app_icon} alt="logo" className="play_app_icon" />
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 };

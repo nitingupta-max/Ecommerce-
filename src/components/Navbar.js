@@ -1,13 +1,16 @@
 import logo from "../image/catalog/Logo.png";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { Link } from "react-router-dom";
-
+import MenuOpenIcon from "@mui/icons-material/MenuOpen";
 import "../css/navbar.css";
 const Navbar = () => {
   return (
     <>
       <div className="navbar">
         <div className="logo-div">
+          <div className="hemberger">
+            <MenuOpenIcon color="action" style={{ fontSize: "48px" }} />
+          </div>
           <Link to={"/"}>
             <img src={logo} alt="logo" />
           </Link>
@@ -22,7 +25,7 @@ const Navbar = () => {
               <option value="4">Branded</option>
             </select>
           </div>
-          <div>
+          <div className="inp-div-nav">
             <input
               type="text"
               className="input-field"

@@ -18,77 +18,87 @@ const OrderSummary = () => {
       </Typography>
       <div className="med-details-div">
         <div className="medicine-quantity">
-          <div className="title-div">
+          <div className="title-div forPhone">
             <Typography>Product</Typography>
-            <Typography>Price</Typography>
-            <Typography>Quantity</Typography>
+            <div className="pq">
+              <Typography>Price</Typography>
+              <Typography>Quantity</Typography>
+            </div>
           </div>
-          <hr></hr>
+          <hr className="forPhone"></hr>
           <div className="title-div">
             <Typography>Dolo 650mg Tablet 15'S</Typography>
-            <Typography> ₹ 27.42</Typography>
-            <div className="count">
-              <Button>
-                <RemoveIcon />
-              </Button>
-              {/* <Typography ml={2} mr={2} mt={1}>
+            <div className="rate-phone">
+              <Typography> ₹ 27.42</Typography>
+              <div className="count">
+                <Button>
+                  <RemoveIcon />
+                </Button>
+                {/* <Typography ml={2} mr={2} mt={1}>
                 100
               </Typography> */}
-              <input className="quantity-inp" placeholder="10"></input>
-              <Button>
-                <AddIcon />
-              </Button>
+                <input className="quantity-inp" placeholder="10"></input>
+                <Button>
+                  <AddIcon />
+                </Button>
+              </div>
             </div>
           </div>
           <hr></hr>
           <div className="title-div">
             <Typography>Dolo 650mg Tablet 15'S</Typography>
-            <Typography> ₹ 27.42</Typography>
-            <div className="count">
-              <Button>
-                <RemoveIcon />
-              </Button>
-              {/* <Typography ml={2} mr={2} mt={1}>
+            <div className="rate-phone">
+              <Typography> ₹ 27.42</Typography>
+              <div className="count">
+                <Button>
+                  <RemoveIcon />
+                </Button>
+                {/* <Typography ml={2} mr={2} mt={1}>
                 100
               </Typography> */}
-              <input className="quantity-inp" placeholder="10"></input>
-              <Button>
-                <AddIcon />
-              </Button>
+                <input className="quantity-inp" placeholder="10"></input>
+                <Button>
+                  <AddIcon />
+                </Button>
+              </div>
             </div>
           </div>
           <hr></hr>
           <div className="title-div">
             <Typography>Dolo 650mg Tablet 15'S</Typography>
-            <Typography> ₹ 27.42</Typography>
-            <div className="count">
-              <Button>
-                <RemoveIcon />
-              </Button>
-              {/* <Typography ml={2} mr={2} mt={1}>
+            <div className="rate-phone">
+              <Typography> ₹ 27.42</Typography>
+              <div className="count">
+                <Button>
+                  <RemoveIcon />
+                </Button>
+                {/* <Typography ml={2} mr={2} mt={1}>
                 100
               </Typography> */}
-              <input className="quantity-inp" placeholder="10"></input>
-              <Button>
-                <AddIcon />
-              </Button>
+                <input className="quantity-inp" placeholder="10"></input>
+                <Button>
+                  <AddIcon />
+                </Button>
+              </div>
             </div>
           </div>{" "}
           <hr></hr>
           <div className="title-div">
             <Typography>Dolo 650mg Tablet 15'S</Typography>
-            <Typography> ₹ 27.42</Typography>
-            <div className="count">
-              <Button>
-                <RemoveIcon />
-              </Button>
-              {/* <Typography ml={2} mr={2} mt={1}>
+            <div className="rate-phone">
+              <Typography> ₹ 27.42</Typography>
+              <div className="count">
+                <Button>
+                  <RemoveIcon />
+                </Button>
+                {/* <Typography ml={2} mr={2} mt={1}>
                 100
               </Typography> */}
-              <input className="quantity-inp" placeholder="10"></input>
-              <Button>
-                <AddIcon />
-              </Button>
+                <input className="quantity-inp" placeholder="10"></input>
+                <Button>
+                  <AddIcon />
+                </Button>
+              </div>
             </div>
           </div>
           <Button>+Add more items</Button>

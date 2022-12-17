@@ -10,7 +10,7 @@
 
 .footer-cover {
   background: #252222;
-  padding: 2% 2% 1%;
+  padding: 2% 10% 1%;
 }
 
 .footer-line {
@@ -48,5 +48,12 @@
   .div-2,
   .div-3 {
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer-cover {
+    background: #252222;
+    padding: 10% 2% 1%;
   }
 }

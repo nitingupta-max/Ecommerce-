@@ -175,4 +175,13 @@
     padding: 1rem;
     margin: 1rem auto;
   }
+  .banner {
+    height: 80px;
+    width: 80%;
+    padding: 1rem;
+  }
+  .img-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
